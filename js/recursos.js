@@ -1,10 +1,10 @@
 (function () {
   'use strict';
   var MATERIAS = [
-    { n: 'Matemáticas', e: '➗', c: 'var(--coral)', t: 'Álgebra, funciones y razonamiento lógico.' },
-    { n: 'Geometría', e: '📐', c: 'var(--sky)', t: 'Figuras, ángulos y demostraciones.' },
-    { n: 'Economía y Política', e: '🏛️', c: 'var(--gold)', t: 'Cómo funcionan el dinero, el Estado y la ciudadanía.' },
-    { n: 'Tecnología e Informática', e: '💻', c: 'var(--violet)', t: 'Programación, ofimática y pensamiento computacional.' }
+    { n: 'Matemáticas', e: '<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="6" r="1" /> <line x1="5" x2="19" y1="12" y2="12" /> <circle cx="12" cy="18" r="1" /></svg>', c: 'var(--coral)', t: 'Álgebra, funciones y razonamiento lógico.' },
+    { n: 'Geometría', e: '<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" /> <path d="m14.5 12.5 2-2" /> <path d="m11.5 9.5 2-2" /> <path d="m8.5 6.5 2-2" /> <path d="m17.5 15.5 2-2" /></svg>', c: 'var(--sky)', t: 'Figuras, ángulos y demostraciones.' },
+    { n: 'Economía y Política', e: '<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" /></svg>', c: 'var(--gold)', t: 'Cómo funcionan el dinero, el Estado y la ciudadanía.' },
+    { n: 'Tecnología e Informática', e: '<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z" /> <path d="M20.054 15.987H3.946" /></svg>', c: 'var(--violet)', t: 'Programación, ofimática y pensamiento computacional.' }
   ];
   var data = window.RECURSOS || [];
   var grid = document.getElementById('grid');

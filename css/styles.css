@@ -252,3 +252,32 @@ code{background:var(--cream);padding:.1em .45em;border-radius:6px;font-size:.88e
   .bar>span{grid-column:1/-1}
   .arrow{width:38px;height:38px}
 }
+
+/* ICONOS */
+.i{width:1.15em;height:1.15em;flex:none;vertical-align:-.2em}
+.i.b{color:var(--b)}
+.card.star .i.b,.chips.g .i.b,.chips.y .i.b,.cta-box .i.b,.pill .i.b{color:currentColor}
+.chips span,.chips a,.stack span{display:inline-flex;align-items:center;gap:.45em}
+.chips span .i,.chips a .i,.stack span .i{width:1.1em;height:1.1em;vertical-align:0}
+.bar .lbl{display:inline-flex;align-items:center;gap:.55em}
+.bar .lbl .i{width:1.25em;height:1.25em;vertical-align:0}
+.ico .i{width:28px;height:28px;color:#fff}
+.big-ico .i{width:58px;height:58px;color:#fff;stroke-width:1.75}
+.rec .e .i{width:36px;height:36px;color:var(--c)}
+.step b .i,.sub .i,.col h3 .i,.panel h3 .i,.psec h2 .i{color:var(--gold);width:1.1em;height:1.1em;margin-right:.1em}
+.step b{display:flex;align-items:center;gap:.5em}
+.pill .i{width:1.25em;height:1.25em;vertical-align:-.25em}
+.pill{gap:.55em}
+.sticker .i{width:1.1em;height:1.1em;vertical-align:-.2em;color:var(--green)}
+.arrow{display:grid;place-items:center}
+.arrow .i{width:1.3em;height:1.3em}
+.btn .i{width:1.15em;height:1.15em}
+.links a .i,.psec .btn .i{margin-right:.2em}
+.fact b{display:flex;align-items:center;gap:.5em}
+.fact b .i{width:1.2em;height:1.2em;color:var(--gold)}
+.more .i{width:1em;height:1em}
+.i.w{width:1.9em;height:1.19em}
+.chips span .i.w,.chips a .i.w,.stack span .i.w{width:1.9em;height:1.19em}
+.bar .lbl .i.w{width:2em;height:1.25em}
+.card.star h3{display:flex;align-items:center;gap:.4em}
+.card.star h3 .i{color:var(--gold);fill:var(--gold);width:1em;height:1em}

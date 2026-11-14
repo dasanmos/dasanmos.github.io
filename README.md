@@ -53,3 +53,9 @@ Edita `js/recursos-data.js` y añade un bloque por recurso (hay un ejemplo dentr
 - Textos, datos y enlaces: `index.html` y los archivos de `proyectos/`.
 - Colores: variables al inicio de `css/styles.css` (`--green`, `--gold`, `--cream`, `--coral`, `--sky`, `--violet`).
 - Foto: reemplaza `images/santi.jpg` por otra del mismo nombre.
+
+## Créditos de iconos
+
+- Logos de marca (PHP, MySQL, Instagram, WhatsApp, etc.): [Simple Icons](https://simpleicons.org), licencia CC0.
+- Iconos de línea: [Lucide](https://lucide.dev), licencia ISC.
+- Los iconos están dentro del HTML (SVG en línea): no dependen de ningún servicio externo.
