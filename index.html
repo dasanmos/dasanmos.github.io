@@ -4,350 +4,294 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DASANMOS · David Santiago Mosquera</title>
-  <meta name="description" content="David Santiago Mosquera (DASANMOS): desarrollador autodidacta que construye tecnología para la educación pública. Aprendiz SENA, Medellín, Colombia.">
+  <meta name="description" content="David Santiago Mosquera (DASANMOS): futuro docente y desarrollador full stack que construye tecnología para la educación pública. Medellín, Colombia.">
   <meta property="og:title" content="DASANMOS · David Santiago Mosquera">
-  <meta property="og:description" content="Tecnología para la educación pública. Serena, Horario INEM, Banco Escolar y más.">
+  <meta property="og:description" content="David Santiago Mosquera (DASANMOS): futuro docente y desarrollador full stack que construye tecnología para la educación pública. Medellín, Colombia.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://dasanmos.github.io/images/santi.jpg">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
 <header class="nav" id="nav">
-  <a class="brand" href="#inicio">DASANMOS</a>
+  <a class="brand" href="index.html"><span class="dot"></span>DASANMOS</a>
   <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
   <nav class="menu" id="menu">
-    <a href="#proyectos">Proyectos</a>
-    <a href="#serena">Serena</a>
-    <a href="#trayectoria">Trayectoria</a>
-    <a href="#docencia">Docencia</a>
-    <a href="#tecnologias">Tecnologías</a>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#contacto" class="cta">Contacto</a>
+    <a href="index.html#proyectos">Proyectos</a>
+    <a href="index.html#sobre-mi">Sobre mí</a>
+    <a href="index.html#formacion">Formación</a>
+    <a href="index.html#habilidades">Habilidades</a>
+    <a href="index.html#reconocimientos">Reconocimientos</a>
+    <a href="recursos.html">Recursos</a>
+    <a class="cta" href="index.html#contacto">Contacto</a>
   </nav>
 </header>
+<main>
 
-<main id="inicio">
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Docencia y tecnología educativa · Desarrollador full stack · Medellín</span>
+      <div class="slides">
+        <div class="slide active">
+          <h1>Educar y programar para <span class="hl">transformar vidas</span></h1>
+          <p>Soy David Santiago Mosquera, futuro docente y desarrollador full stack. Construyo tecnología para la educación pública.</p>
+          <a class="btn" href="#proyectos">Ver proyectos</a>
+        </div>
+        <div class="slide">
+          <h1>Serena: bienestar y <span class="hl">gestión académica</span></h1>
+          <p>Una plataforma con 11 roles y 110 tablas, en etapa de finalización y en búsqueda de colegios piloto.</p>
+          <a class="btn" href="proyectos/serena.html">Conocer Serena</a>
+        </div>
+        <div class="slide">
+          <h1>Del código <span class="hl">al aula</span></h1>
+          <p>He dado clases con actividades propias en lugar de profesores ausentes. En 3 a 5 años me veo como un gran educador y, a la vez, ingeniero de sistemas.</p>
+          <a class="btn" href="#formacion">Mi formación</a>
+        </div>
+      </div>
+      <div class="cui">
+        <button class="arrow" id="prev" aria-label="Anterior">❮</button>
+        <div class="dots" id="dots"></div>
+        <button class="arrow" id="next" aria-label="Siguiente">❯</button>
+      </div>
+      <div class="socials">
+      <a class="pill" style="--c:var(--coral)" href="https://www.instagram.com/david.mosqueram/" target="_blank" rel="noopener">📸 @david.mosqueram</a>
+      <a class="pill" style="--c:var(--leaf)" href="https://wa.me/@david.mosqueram" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="pill" style="--c:var(--sky)" href="mailto:dasanmos@gmail.com">✉️ dasanmos@gmail.com</a>
+      <a class="pill" style="--c:var(--violet)" href="https://github.com/dasanmos" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+    </div>
+    <div class="hero-photo">
+      <img src="images/santi.jpg" alt="David Santiago Mosquera" width="420" height="420">
+      <span class="sticker">Docente + Dev ✨</span>
+    </div>
+  </div>
+</section>
 
-  <!-- HERO CARRUSEL -->
-  <section class="hero" aria-roledescription="carrusel">
-    <div class="slide active s1">
-      <div class="slide-inner">
-        <h1>Tecnología para la educación pública</h1>
-        <p>Soy David Santiago Mosquera, desarrollador autodidacta. Cada proyecto que ves aquí nació de una necesidad real de mi colegio y lo usa gente real.</p>
-        <a class="btn" href="#proyectos">Explorar proyectos</a>
-      </div>
-    </div>
-    <div class="slide s2">
-      <div class="slide-inner">
-        <h1>Serena: bienestar y gestión académica</h1>
-        <p>Una plataforma con 11 roles que conecta al estudiante con psicología y orientación a tiempo, con costo cero para la institución.</p>
-        <a class="btn" href="#serena">Conocer Serena</a>
-      </div>
-    </div>
-    <div class="slide s3">
-      <div class="slide-inner">
-        <h1>Del código al aula</h1>
-        <p>He reemplazado a profesores ausentes con actividades propias. Mi meta: ser ingeniero de sistemas y docente.</p>
-        <a class="btn" href="#docencia">Ver docencia</a>
-      </div>
-    </div>
-    <div class="slide s4">
-      <div class="slide-inner">
-        <h1>Aprendiendo cada día</h1>
-        <p>Hoy practico TypeScript, React, Java y Spring Boot, y lo aplico enseguida en proyectos reales.</p>
-        <a class="btn" href="#tecnologias">Ver tecnologías</a>
-      </div>
-    </div>
-    <button class="arrow prev" id="prev" aria-label="Anterior">❮</button>
-    <button class="arrow next" id="next" aria-label="Siguiente">❯</button>
-    <div class="dots" id="dots"></div>
-  </section>
+<!-- CIFRAS -->
+<div class="wrap">
+  <div class="strip">
+    <div style="--c:var(--green2)"><b data-n="11">11</b><span>roles en Serena</span></div>
+    <div style="--c:var(--coral)"><b data-n="110">110</b><span>tablas en su base de datos</span></div>
+    <div style="--c:var(--sky)"><b data-n="138">138</b><span>citaciones ICFES automatizadas</span></div>
+    <div style="--c:var(--violet)"><b data-n="7">7</b><span>proyectos construidos</span></div>
+    <div style="--c:var(--gold)"><b data-n="308">308</b><span>puntos en Saber 11</span></div>
+  </div>
+</div>
 
-  <!-- PROYECTOS DESTACADOS -->
-  <section class="section" id="proyectos">
-    <div class="wrap">
-      <h2 class="title">Proyectos destacados</h2>
-      <p class="lead">Un vistazo a lo que he construido. Cada uno resuelve un problema concreto de mi colegio.</p>
-
-      <div class="cards">
-        <article class="card star reveal">
-          <span class="tag">Proyecto estrella</span>
+<!-- PROYECTOS -->
+<section class="section" id="proyectos">
+  <div class="wrap">
+    <span class="kicker">Proyectos</span>
+    <h2 class="title">Cada uno resuelve un problema real</h2>
+    <p class="lead">Nacieron de necesidades de mi colegio y los usa gente real. Toca cualquiera para ver el detalle.</p>
+    <div class="cards">
+      <article class="card star reveal" style="--c:var(--green2)">
+        <div class="body">
+          <span class="tagstar">Proyecto estrella</span>
           <h3>🌟 Serena</h3>
-          <p>Plataforma académica y de bienestar emocional para toda la institución, desde grado sexto.</p>
-          <p class="stack">PHP · MySQL · JavaScript</p>
-          <div class="links">
-            <a href="https://serena.infinityfreeapp.com" target="_blank" rel="noopener">Demo</a>
-            <a href="https://github.com/dasanmos/serena" target="_blank" rel="noopener">Código</a>
-          </div>
-        </article>
-
-        <article class="card reveal">
-          <h3>🗓️ Horario INEM XI-10</h3>
-          <p>PWA que administro para mi curso: horario, asistencia, compromisos, cartelera con encuestas anónimas, calculadora de notas, Pomodoro y notificaciones push. Cuatro roles.</p>
-          <p class="stack">Firebase · JavaScript · PWA · Cloud Functions</p>
-        </article>
-
-        <article class="card reveal">
-          <h3>🎙️ SonoColeMP</h3>
+          <p>Plataforma web académica y de bienestar emocional para toda la institución, desde grado sexto. Reúne bienestar emocional y gestión académica, y conecta al estudiante con psicología y orientación a tiempo, con costo cero para la institución.</p>
+          <div class="stack"><span>PHP 8.1+</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="more" href="proyectos/serena.html">Ver detalle →</a>
+        </div>
+      </article>
+      <article class="card reveal" style="--c:var(--sky)">
+          <div class="ico">🗓️</div>
+          <h3>Horario INEM XI-10</h3>
+          <p>Horario, asistencia, compromisos, cartelera con encuestas anónimas, calculadora de notas, Pomodoro y notificaciones push. Cuatro roles.</p>
+          <div class="stack"><span>Firebase</span><span>JavaScript</span><span>PWA</span><span>Cloud Functions</span></div>
+          <a class="more" href="proyectos/horario-inem.html">Ver detalle →</a>
+        </article><article class="card reveal" style="--c:var(--violet)">
+          <div class="ico">🎙️</div>
+          <h3>SonoColeMP</h3>
           <p>Plataforma de podcasts del colegio, hecha en equipo con Karen Palacio, Jose Ribon e Isabela Díaz.</p>
-          <p class="stack">PHP · MySQL · Python</p>
-          <div class="links"><a href="https://sonocolemp.infinityfreeapp.com/" target="_blank" rel="noopener">Demo</a></div>
-        </article>
-
-        <article class="card reveal">
-          <h3>🏦 Banco Escolar</h3>
+          <div class="stack"><span>PHP</span><span>MySQL</span><span>Python</span></div>
+          <a class="more" href="proyectos/sonocolemp.html">Ver detalle →</a>
+        </article><article class="card reveal" style="--c:var(--gold)">
+          <div class="ico">🏦</div>
+          <h3>Banco Escolar</h3>
           <p>Banca gamificada para enseñar economía y finanzas personales en el aula.</p>
-          <p class="stack">JavaScript · Firebase</p>
-          <div class="links"><a href="https://banco-escolar-david.netlify.app" target="_blank" rel="noopener">Demo</a></div>
-        </article>
-
-        <article class="card reveal">
-          <h3>💙 Bienestar estudiantil</h3>
+          <div class="stack"><span>JavaScript</span><span>Firebase</span></div>
+          <a class="more" href="proyectos/banco-escolar.html">Ver detalle →</a>
+        </article><article class="card reveal" style="--c:var(--coral)">
+          <div class="ico">💙</div>
+          <h3>Bienestar estudiantil</h3>
           <p>Mi primer acercamiento al bienestar emocional, que después evolucionó en Serena. Backend por capas.</p>
-          <p class="stack">Java · Spring Boot · Firebase</p>
-          <div class="links"><a href="https://github.com/dasanmos/plataforma-bienestar-estudiantil" target="_blank" rel="noopener">Código</a></div>
+          <div class="stack"><span>Java</span><span>Spring Boot</span><span>Firebase</span></div>
+          <a class="more" href="proyectos/bienestar-estudiantil.html">Ver detalle →</a>
+        </article><article class="card reveal" style="--c:var(--leaf)">
+          <div class="ico">📊</div>
+          <h3>PreIcfes 2026</h3>
+          <p>Simulacros con hoja de respuestas, bloqueo de sesión y ponderación por área. Multirol.</p>
+          <div class="stack"><span>PHP</span><span>MySQL</span></div>
+          <a class="more" href="proyectos/preicfes-2026.html">Ver detalle →</a>
+        </article><article class="card reveal" style="--c:var(--rose)">
+          <div class="ico">🤖</div>
+          <h3>Citaciones ICFES</h3>
+          <p>Descargó las citaciones de 138 estudiantes sin una sola descarga manual, resolviendo formularios JSF/PrimeFaces.</p>
+          <div class="stack"><span>Python</span><span>Playwright</span></div>
+          <a class="more" href="proyectos/citaciones-icfes.html">Ver detalle →</a>
         </article>
-
-        <article class="card reveal">
-          <h3>📊 PreIcfes 2026</h3>
-          <p>Simulacros con motor de calificación estilo Saber 11°: hoja de respuestas, bloqueo de sesión y ponderación por área. Multirol.</p>
-          <p class="stack">PHP · MySQL</p>
-        </article>
-
-        <article class="card reveal">
-          <h3>🤖 Citaciones ICFES</h3>
-          <p>Descargó las citaciones de <strong>138 estudiantes</strong> sin una sola descarga manual, resolviendo formularios JSF/PrimeFaces.</p>
-          <p class="stack">Python · Playwright</p>
-        </article>
-      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SERENA -->
-  <section class="section alt" id="serena">
-    <div class="wrap">
-      <div class="serena-head reveal">
-        <img src="https://raw.githubusercontent.com/dasanmos/serena/main/public/assets/img/logo/logo.png" alt="Logo de Serena" width="120" height="120" loading="lazy">
-        <div>
-          <h2 class="title left">Serena</h2>
-          <p class="lead left">Las apps de bienestar miden emociones, hábitos o diario por separado, y las plataformas académicas solo gestionan notas y matrículas. <strong>Serena reúne las dos cosas y conecta al estudiante con psicología y orientación a tiempo.</strong></p>
-          <div class="links big">
-            <a href="https://serena.infinityfreeapp.com" target="_blank" rel="noopener">🔗 Demo en vivo</a>
-            <a href="https://github.com/dasanmos/serena" target="_blank" rel="noopener">💻 Código</a>
-            <a href="https://github.com/dasanmos/serena/blob/main/docs/Presentacion_Serena_SENA_final.pptx" target="_blank" rel="noopener">📑 Presentación</a>
-            <a href="https://github.com/dasanmos/serena/blob/main/docs/INSTALACION.md" target="_blank" rel="noopener">⚙️ Instalación</a>
+<!-- SOBRE MI -->
+<section class="section soft" id="sobre-mi">
+  <div class="wrap about">
+    <div class="reveal">
+      <span class="kicker">Sobre mí</span>
+      <h2 class="title">Futuro docente y desarrollador</h2>
+      <p>Soy futuro docente y desarrollador full stack que construye tecnología para la educación pública. Me gradué en 2026 como <strong>Normalista Superior</strong>, <strong>Bachiller Técnico en Programación de Software</strong> y <strong>Técnico en Desarrollo de Software (SENA)</strong>.</p>
+      <p>Creé <strong>Serena</strong>, una plataforma académica y de bienestar emocional con 11 roles y 110 tablas, en etapa de finalización y en búsqueda de colegios piloto. Tengo experiencia en el aula y liderazgo en mi comunidad. Aprendo rápido, comunico con claridad y trabajo en equipo.</p>
+      <h3 class="sub">Mi objetivo</h3>
+      <p>Desempeñarme como docente o en roles de tecnología educativa y desarrollo de software, en colegios, empresas de educación o empresas de tecnología, en modalidad remota, híbrida o presencial. A 3 a 5 años me veo como un gran educador y, al mismo tiempo, como ingeniero de sistemas.</p>
+      <h3 class="sub">Lo que mejor enseño</h3>
+      <div class="chips y"><span>Matemáticas</span><span>Geometría</span><span>Economía y Política</span><span>Tecnología e Informática</span></div>
+      <h3 class="sub">Habilidades blandas</h3>
+      <div class="chips g"><span>Empatía</span><span>Solidaridad</span><span>Trabajo en equipo</span><span>Pensamiento crítico y reflexivo</span><span>Oratoria</span><span>Planificación y calma bajo presión</span><span>Aprendizaje rápido</span></div>
+    </div>
+    <aside class="reveal">
+      <div class="quote">“Educar es transformar vidas, y hay que vivir auténticamente.”<small>Idea de autenticidad de Heidegger</small></div>
+      <div class="facts">
+        <div class="fact"><b>Idiomas</b><span>Español nativo · Inglés en formación, sin certificación</span></div>
+        <div class="fact"><b>Metodología</b><span>Scrum</span></div>
+        <div class="fact"><b>Intereses</b><span>Natación · Lectura · Ajedrez</span></div>
+        <div class="fact"><b>Ahora</b><span>Terminando Serena y buscando colegios piloto</span></div>
+        <div class="fact"><b>Referencias</b><span>Disponibles bajo solicitud</span></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- FORMACION Y EXPERIENCIA -->
+<section class="section" id="formacion">
+  <div class="wrap">
+    <span class="kicker">Formación y experiencia</span>
+    <h2 class="title">Lo que he estudiado y hecho</h2>
+    <p class="lead">Estudios técnicos, normalistas y de ingeniería, y experiencia real en el aula y en desarrollo web.</p>
+    <div class="two">
+      <div class="col"><h3>🎓 Formación</h3><div class="item reveal" style="--c:var(--gold)"><i></i><div><b>Ingeniería de Sistemas</b><span>Universidad EAFIT, Medellín</span><em>Inicio: 2027</em></div></div><div class="item reveal" style="--c:var(--green2)"><i></i><div><b>Técnico en Desarrollo de Software</b><span>SENA</span><em>Egresado 2026</em></div></div><div class="item reveal" style="--c:var(--sky)"><i></i><div><b>Bachiller Técnico en Programación de Software</b><span>I.E. INEM José Félix de Restrepo, Medellín · articulado con el SENA</span><em>Egresado 2026 · Saber 11: 308 puntos</em></div></div><div class="item reveal" style="--c:var(--coral)"><i></i><div><b>Normalista Superior</b><span>Escuela Normal Superior de Medellín</span><em>Egresado 2026</em></div></div><div class="item reveal" style="--c:var(--violet)"><i></i><div><b>Formación complementaria</b><span>Cursos de ofimática, inglés, pedagogía y tecnología (SENA)</span></div></div></div>
+      <div class="col"><h3>💼 Experiencia</h3><div class="item reveal" style="--c:var(--sky)"><i></i><div><b>Desarrollador web freelance</b><span>Institución CEMCO</span><em>Desarrollo de páginas web para el sistema de la institución.</em></div></div><div class="item reveal" style="--c:var(--green2)"><i></i><div><b>Desarrollador full stack y Product Owner</b><span>Serena · proyecto propio, equipo de 2 personas</span><em>Plataforma con 11 roles; en búsqueda de colegios piloto.</em></div></div><div class="item reveal" style="--c:var(--coral)"><i></i><div><b>Reemplazos docentes</b><span>Colegio Empresarial</span><em>Clases con actividades propias en lugar de profesores ausentes.</em></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section class="section soft" id="habilidades">
+  <div class="wrap">
+    <span class="kicker">Habilidades y tecnologías</span>
+    <h2 class="title">Qué uso y qué estoy aprendiendo</h2>
+    <p class="lead">Autoevaluación de 1 a 5. En verde, lo que uso a diario; en azul, complementarias; en dorado, lo que estoy aprendiendo.</p>
+    <div class="charts">
+      <div class="chartbox">
+        <h3>Habilidades técnicas</h3>
+        <div class="bar" style="--v:100;--c:var(--green2)"><span>HTML y CSS</span><div class="track"><i></i></div><b>5</b></div><div class="bar" style="--v:90;--c:var(--green2)"><span>JavaScript</span><div class="track"><i></i></div><b>4,5</b></div><div class="bar" style="--v:90;--c:var(--green2)"><span>PHP</span><div class="track"><i></i></div><b>4,5</b></div><div class="bar" style="--v:90;--c:var(--green2)"><span>MySQL y bases de datos</span><div class="track"><i></i></div><b>4,5</b></div><div class="bar" style="--v:80;--c:var(--green2)"><span>Seguridad web (2FA, roles, cifrado)</span><div class="track"><i></i></div><b>4</b></div><div class="bar" style="--v:80;--c:var(--green2)"><span>Python</span><div class="track"><i></i></div><b>4</b></div><div class="bar" style="--v:80;--c:var(--green2)"><span>Firebase y Cloud Functions</span><div class="track"><i></i></div><b>4</b></div><div class="bar" style="--v:80;--c:var(--green2)"><span>Git y GitHub</span><div class="track"><i></i></div><b>4</b></div><div class="bar" style="--v:90;--c:var(--sky)"><span>Ofimática</span><div class="track"><i></i></div><b>4,5</b></div><div class="bar" style="--v:60;--c:var(--sky)"><span>Hardware y sistemas</span><div class="track"><i></i></div><b>3</b></div><div class="bar" style="--v:40;--c:var(--gold)"><span>Java · Spring Boot</span><div class="track"><i></i></div><b>2</b></div><div class="bar" style="--v:40;--c:var(--gold)"><span>TypeScript · React</span><div class="track"><i></i></div><b>2</b></div>
+        <div class="legend"><span><i style="background:var(--green2)"></i>Uso diario</span><span><i style="background:var(--sky)"></i>Complementarias</span><span><i style="background:var(--gold)"></i>En aprendizaje</span></div>
+      </div>
+      <div>
+        <div class="chartbox" style="margin-bottom:28px">
+          <h3>Tecnologías por número de proyectos (7)</h3>
+          <div class="bar" style="--v:100;--c:var(--green2)"><span>Firebase</span><div class="track"><i></i></div><b>3</b></div><div class="bar" style="--v:100;--c:var(--green2)"><span>JavaScript</span><div class="track"><i></i></div><b>3</b></div><div class="bar" style="--v:100;--c:var(--green2)"><span>MySQL</span><div class="track"><i></i></div><b>3</b></div><div class="bar" style="--v:100;--c:var(--green2)"><span>PHP</span><div class="track"><i></i></div><b>3</b></div><div class="bar" style="--v:66.7;--c:var(--sky)"><span>Python</span><div class="track"><i></i></div><b>2</b></div><div class="bar" style="--v:33.3;--c:var(--sky)"><span>HTML/CSS</span><div class="track"><i></i></div><b>1</b></div><div class="bar" style="--v:33.3;--c:var(--sky)"><span>Java</span><div class="track"><i></i></div><b>1</b></div><div class="bar" style="--v:33.3;--c:var(--sky)"><span>PWA</span><div class="track"><i></i></div><b>1</b></div>
+        </div>
+        <div class="chartbox">
+          <h3>Pila tecnológica</h3>
+          <div class="donut">
+            <svg viewBox="-1 -1 38 38" aria-hidden="true">
+              <circle cx="18" cy="18" r="15.9155" stroke="#c9a24b"/>
+              <circle cx="18" cy="18" r="15.9155" stroke="#14624c" stroke-dasharray="63.64 36.36"/>
+            </svg>
+            <div class="c"><b>11</b><span>tecnologías</span></div>
           </div>
+          <div class="legend" style="justify-content:center"><span><i style="background:var(--green2)"></i>Uso diario (7)</span><span><i style="background:var(--gold)"></i>En aprendizaje (4)</span></div>
         </div>
       </div>
-
-      <div class="shots reveal">
-        <img src="https://raw.githubusercontent.com/dasanmos/serena/main/public/assets/img/ayuda/est-inicio-1.jpg" alt="Inicio del estudiante" loading="lazy">
-        <img src="https://raw.githubusercontent.com/dasanmos/serena/main/public/assets/img/ayuda/est-emociones-1.jpg" alt="Registro emocional" loading="lazy">
-        <img src="https://raw.githubusercontent.com/dasanmos/serena/main/public/assets/img/ayuda/doc-seguimiento-1.jpg" alt="Seguimiento del docente" loading="lazy">
-      </div>
-
-      <div class="stats reveal">
-        <div><b data-n="11">0</b><span>roles con su propio panel</span></div>
-        <div><b data-n="110">0</b><span>tablas en la base</span></div>
-        <div><b data-n="69">0</b><span>informes en PDF y CSV</span></div>
-        <div><b data-n="125">0</b><span>capturas en el manual</span></div>
-        <div><b data-n="4">0</b><span>métodos de 2FA</span></div>
-        <div><b data-prefix="$" data-n="0">$0</b><span>costo para la institución</span></div>
-      </div>
-
-      <div class="two reveal">
-        <div class="panel">
-          <h3>💛 Bienestar emocional</h3>
-          <ul>
-            <li>Emociones varias veces al día, con color y nota</li>
-            <li>Sueño, hábitos y metas con rachas e insignias</li>
-            <li>Diario personal protegido con PIN</li>
-            <li><strong>Alertas tempranas</strong> tras días de ánimo bajo</li>
-            <li>Chat y citas con psicología u orientación</li>
-            <li>Encuestas, respiración guiada y líneas de ayuda</li>
-          </ul>
-        </div>
-        <div class="panel">
-          <h3>📚 Gestión académica</h3>
-          <ul>
-            <li>Inscripción web, matrícula y renovación</li>
-            <li>Notas, planilla de seguimiento y boletín</li>
-            <li>Asistencia con alerta de ausentismo</li>
-            <li>Horarios con detección de cruces</li>
-            <li>Hoja de vida, convivencia (Ley 1620) y cuentas de familia</li>
-            <li>Certificados con <strong>código QR verificable</strong>, SIMAT y SIMPADE</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="acc reveal">
-        <details>
-          <summary>👥 Roles y privacidad por diseño</summary>
-          <div class="chips">
-            <span>estudiante</span><span>acudiente</span><span>docente</span><span>psicólogo</span><span>orientador</span><span>coordinador</span><span>rector</span><span>secretaría académica</span><span>administrador</span><span>Secretaría de Educación</span><span>superadmin</span>
-          </div>
-          <ul>
-            <li>Cada persona ve solo lo que necesita: el diario es solo del estudiante, y sus emociones solo las ven psicología y orientación (el orientador, de sus grupos).</li>
-            <li>Coordinación, rectoría y la Secretaría de Educación ven el bienestar <strong>solo en cifras agregadas</strong>.</li>
-            <li><strong>Una persona, una cuenta:</strong> quien es docente y madre, por ejemplo, entra con la misma cuenta y elige el rol. Si su documento está en varios colegios, elige la institución.</li>
-            <li>Cada colegio está aislado de los demás, y cada consulta a una hoja de vida queda registrada.</li>
-          </ul>
-        </details>
-        <details>
-          <summary>🔐 Seguridad</summary>
-          <ul>
-            <li>Consentimiento de tratamiento de datos (<strong>Ley 1581 de 2012</strong>)</li>
-            <li>Verificación en 2 pasos: app autenticadora, correo, WhatsApp o rostro (secretos cifrados con AES-256-GCM)</li>
-            <li>Sentencias preparadas (PDO), tokens CSRF y control de acceso por rol y por estudiante</li>
-            <li>Límite de intentos en el inicio de sesión, el PIN y la verificación en 2 pasos</li>
-            <li>Enlaces de recuperación con token cifrado y de un solo uso</li>
-            <li>Sesiones activas visibles y bitácora de auditoría</li>
-          </ul>
-        </details>
-        <details>
-          <summary>✨ Experiencia, IA y modo demostración</summary>
-          <ul>
-            <li>Diseño con color por módulo y por emoción, animaciones y sonidos sintetizados (se respetan «reducir movimiento» y el alto contraste).</li>
-            <li>Asistente <strong>«Pregúntale a Serena»</strong> y análisis en informes con IA opcional; los datos se anonimizan antes de enviarse.</li>
-            <li><strong>Modo demostración:</strong> una cuenta maestra recorre los 11 roles sobre un colegio ficticio que se restablece en un clic.</li>
-            <li>Centro de ayuda por rol con buscador, manual descargable y 125 capturas generadas automáticamente.</li>
-            <li>Responsive, modo oscuro y dictado por voz.</li>
-          </ul>
-        </details>
-      </div>
-
-      <p class="team reveal"><strong>Stack:</strong> PHP 8.1+ · MySQL · HTML · CSS · JavaScript · sin frameworks · hosting InfinityFree.<br>
-      <strong>Equipo:</strong> David Santiago Mosquera Mosquera (desarrollador full stack, Product Owner y analista de requerimientos) y Ana Sofía Ángel Moncada (gestora de proyectos y diseñadora UI/UX).</p>
-
-      <h3 class="sub reveal">🧪 Lo que aprendí construyendo Serena</h3>
-      <div class="table-wrap reveal">
-        <table>
-          <thead><tr><th>Reto</th><th>Cómo lo resolví</th></tr></thead>
-          <tbody>
-            <tr><td>El hosting gratuito no deja usar <code>public/</code> como raíz</td><td><code>index.php</code> que redirige y <code>.htaccess</code> que blinda <code>src/</code>, <code>sql/</code> y los <code>.env</code></td></tr>
-            <tr><td>El puerto SMTP está bloqueado</td><td>Correos por la API HTTPS de Brevo</td></tr>
-            <tr><td>Datos de menores (Ley 1581)</td><td>Permisos por rol <strong>y</strong> por estudiante, registro de cada consulta y cifras agregadas para directivos</td></tr>
-            <tr><td>Una docente que también es madre</td><td>Cuentas <strong>multirol</strong>: una sola cuenta y elige con qué rol entrar</td></tr>
-            <tr><td>El mismo documento en dos colegios</td><td>Al iniciar sesión, Serena pregunta a qué institución entrar</td></tr>
-            <tr><td>Verificación en 2 pasos sin librerías</td><td>TOTP propio según las RFC 6238 y 4226, con secretos cifrados con AES-256-GCM</td></tr>
-            <tr><td>Mantener el manual al día</td><td>Script con Playwright que toma solas las 125 capturas de la ayuda</td></tr>
-          </tbody>
-        </table>
-      </div>
     </div>
-  </section>
+    <h3 class="sub">Herramientas</h3>
+    <div class="chips"><span>GitHub</span><span>Netlify</span><span>InfinityFree</span><span>Google Cloud Functions</span><span>Playwright</span></div>
+  </div>
+</section>
 
-  <!-- TRAYECTORIA -->
-  <section class="section" id="trayectoria">
-    <div class="wrap narrow">
-      <h2 class="title">Trayectoria</h2>
-      <p class="lead">De un primer juego en Python a una plataforma con 11 roles.</p>
-      <ol class="timeline">
-        <li class="reveal"><span class="ico">🐍</span><div><b>Primer juego en Python</b><p>Empecé a aprender por mi cuenta.</p></div></li>
-        <li class="reveal"><span class="ico">🗓️</span><div><b>Horario INEM (PWA con Firebase)</b><p>Mi primera plataforma con usuarios reales.</p></div></li>
-        <li class="reveal"><span class="ico">🏦</span><div><b>Banco Escolar</b><p>Gamificación para enseñar finanzas.</p></div></li>
-        <li class="reveal"><span class="ico">💙</span><div><b>Bienestar estudiantil (Spring Boot)</b><p>Primer acercamiento al bienestar emocional.</p></div></li>
-        <li class="reveal"><span class="ico">🎙️</span><div><b>SonoColeMP</b><p>Trabajo en equipo.</p></div></li>
-        <li class="reveal"><span class="ico">🤖</span><div><b>Citaciones ICFES (Playwright)</b><p>Automatización para 138 compañeros.</p></div></li>
-        <li class="reveal"><span class="ico">🌟</span><div><b>Serena</b><p>Plataforma académica y de bienestar, 11 roles.</p></div></li>
-      </ol>
+<!-- TRAYECTORIA -->
+<section class="section" id="trayectoria">
+  <div class="wrap">
+    <span class="kicker">Trayectoria</span>
+    <h2 class="title">De un juego en Python a 11 roles</h2>
+    <p class="lead">Siete proyectos, cada uno un paso más.</p>
+    <div class="steps"><div class="step reveal" style="--c:var(--green2)"><div class="n">1</div><b>🐍 Primer juego en Python</b><span>Empecé a aprender por mi cuenta.</span></div><div class="step reveal" style="--c:var(--sky)"><div class="n">2</div><b>🗓️ Horario INEM (PWA + Firebase)</b><span>Mi primera plataforma con usuarios reales.</span></div><div class="step reveal" style="--c:var(--gold)"><div class="n">3</div><b>🏦 Banco Escolar</b><span>Gamificación para enseñar finanzas.</span></div><div class="step reveal" style="--c:var(--coral)"><div class="n">4</div><b>💙 Bienestar estudiantil (Spring Boot)</b><span>Primer paso hacia el bienestar emocional.</span></div><div class="step reveal" style="--c:var(--violet)"><div class="n">5</div><b>🎙️ SonoColeMP</b><span>Trabajo en equipo.</span></div><div class="step reveal" style="--c:var(--rose)"><div class="n">6</div><b>🤖 Citaciones ICFES (Playwright)</b><span>Automatización para 138 compañeros.</span></div><div class="step reveal" style="--c:var(--green)"><div class="n">7</div><b>🌟 Serena</b><span>Plataforma académica y de bienestar, 11 roles.</span></div></div>
+  </div>
+</section>
+
+<!-- RECONOCIMIENTOS -->
+<section class="section soft" id="reconocimientos">
+  <div class="wrap">
+    <span class="kicker">Reconocimientos</span>
+    <h2 class="title">Lo que me han reconocido</h2>
+    <p class="lead">Logros académicos y de liderazgo.</p>
+    <div class="recs"><div class="rec reveal" style="--c:var(--gold)"><span class="e">🏅</span><p>Estudiante con capacidad excepcional (SIMAT).</p></div><div class="rec reveal" style="--c:var(--coral)"><span class="e">🎤</span><p>Consejero y orador capacitado.</p></div><div class="rec reveal" style="--c:var(--sky)"><span class="e">🧮</span><p>Destacado en matemáticas, ciencias exactas, tecnología e informática y filosofía.</p></div><div class="rec reveal" style="--c:var(--violet)"><span class="e">🧪</span><p>Olimpiadas de matemáticas y química de la Universidad de Antioquia.</p></div></div>
+  </div>
+</section>
+
+<!-- RECURSOS -->
+<section class="section">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <div style="position:relative">
+        <h2>Recursos de clase</h2>
+        <p>Apuntes y guías de las materias que mejor enseño. Los iré publicando aquí.</p>
+        <a class="btn gold" href="recursos.html" style="margin-top:20px">Ver recursos →</a>
+      </div>
+      <div class="chips"><a href="recursos.html">Matemáticas</a><a href="recursos.html">Geometría</a><a href="recursos.html">Economía y Política</a><a href="recursos.html">Tecnología e Informática</a></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- DOCENCIA -->
-  <section class="section alt" id="docencia">
-    <div class="wrap narrow">
-      <h2 class="title">Docencia</h2>
-      <p class="lead">No solo construyo software para el aula: también he estado al frente de ella.</p>
-      <div class="three">
-        <div class="panel reveal"><h3>👩‍🏫 En el aula</h3><p>He reemplazado a profesores ausentes en mi colegio, con actividades propias.</p></div>
-        <div class="panel reveal"><h3>🎯 Mi camino</h3><p>Busco unir <strong>programación y docencia</strong> en una carrera de tecnología educativa.</p></div>
-        <div class="panel reveal"><h3>💪 Mis fuertes</h3><p>Matemáticas, Geometría, Economía y Política, y Tecnología e Informática.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TECNOLOGIAS -->
-  <section class="section" id="tecnologias">
-    <div class="wrap narrow">
-      <h2 class="title">Tecnologías</h2>
-      <h3 class="sub">Uso a diario</h3>
-      <div class="chips big">
-        <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Firebase</span><span>Python</span>
-      </div>
-      <h3 class="sub">Aprendiendo</h3>
-      <div class="chips big learning">
-        <span>Java</span><span>Spring Boot</span><span>TypeScript</span><span>React</span>
-      </div>
-      <h3 class="sub">Herramientas</h3>
-      <p>GitHub · Netlify · InfinityFree · Google Cloud Functions · Playwright</p>
-
-      <h3 class="sub">Cómo trabajo</h3>
-      <div class="two">
-        <div class="panel reveal"><b>Personas primero</b><p>Cada proyecto nació de una necesidad real en mi colegio.</p></div>
-        <div class="panel reveal"><b>Datos de estudiantes con cuidado</b><p>Seguridad y confidencialidad desde el diseño, no al final.</p></div>
-        <div class="panel reveal"><b>Entender antes de copiar</b><p>Busco el porqué de cada solución antes de implementarla.</p></div>
-        <div class="panel reveal"><b>Documentar para otros</b><p>Guías de instalación, manual por rol y notas de cada fase.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOBRE MI -->
-  <section class="section alt" id="sobre-mi">
-    <div class="wrap about">
-      <img class="avatar reveal" src="images/santi.jpg" alt="David Santiago Mosquera" width="220" height="220">
+<!-- CONTACTO -->
+<section class="section soft" id="contacto">
+  <div class="wrap">
+    <span class="kicker">Contacto</span>
+    <h2 class="title">Hablemos</h2>
+    <p class="lead">¿Trabajas en un colegio público, en una Secretaría de Educación o en un proyecto EdTech? Escríbeme: tu mensaje me llega por correo y por WhatsApp.</p>
+    <div class="contact">
       <div class="reveal">
-        <span class="kicker">SOBRE MÍ</span>
-        <h2 class="title left">Un desarrollador que quiere ser docente</h2>
-        <p>Estudio en la <strong>I.E. INEM José Félix de Restrepo</strong> (Media Técnica en Programación de Software) y soy aprendiz del <strong>SENA</strong>. Empecé a programar con un juego en Python y desde entonces aprendo por mi cuenta y lo aplico enseguida.</p>
-        <p>Mi meta es ser <strong>ingeniero de sistemas y docente</strong>, y algún día liderar una institución educativa pública.</p>
-        <ul class="now">
-          <li>🔭 <b>Ahora:</b> socializando Serena en la etapa productiva del SENA y administrando el sistema escolar de mi curso.</li>
-          <li>🌱 <b>Aprendiendo:</b> TypeScript · React · Java · Spring Boot</li>
-          <li>🎯 <b>Ruta:</b> Técnico en Desarrollo de Software (SENA) → Normalista o licenciatura → Ingeniería de Sistemas</li>
-          <li>🤝 <b>Busco colaborar en:</b> EdTech para instituciones públicas</li>
-        </ul>
-      </div>
+        <p style="color:var(--muted)">También puedes escribirme directo:</p>
+        <div class="socials">
+      <a class="pill" style="--c:var(--coral)" href="https://www.instagram.com/david.mosqueram/" target="_blank" rel="noopener">📸 @david.mosqueram</a>
+      <a class="pill" style="--c:var(--leaf)" href="https://wa.me/@david.mosqueram" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="pill" style="--c:var(--sky)" href="mailto:dasanmos@gmail.com">✉️ dasanmos@gmail.com</a>
+      <a class="pill" style="--c:var(--violet)" href="https://github.com/dasanmos" target="_blank" rel="noopener">💻 GitHub</a>
     </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section class="section" id="contacto">
-    <div class="wrap narrow">
-      <h2 class="title">Hablemos</h2>
-      <p class="lead">¿Trabajas en un colegio público, en una Secretaría de Educación o en un proyecto EdTech? Escríbeme.</p>
-      <div class="contact">
-        <div class="info">
-          <b>GitHub</b>
-          <p><a href="https://github.com/dasanmos" target="_blank" rel="noopener">github.com/dasanmos</a></p>
-          <b>Ubicación</b>
-          <p>Medellín, Colombia</p>
-          <b>Colaboración</b>
-          <p>EdTech para instituciones públicas</p>
-        </div>
-        <form id="form" novalidate>
-          <label>Nombre<input type="text" id="f-nombre" required autocomplete="name"></label>
-          <label>Correo electrónico (para que te responda)<input type="email" id="f-correo" required autocomplete="email"></label>
-          <label>Mensaje<textarea id="f-msg" rows="5" required></textarea></label>
-          <button class="btn" type="submit">Enviar mensaje</button>
-          <p class="hint" id="hint">Al enviar se abre un <em>issue</em> en GitHub con tu mensaje.</p>
-        </form>
       </div>
+      <form id="form" class="reveal" novalidate data-email="dasanmos@gmail.com" data-wa="https://wa.me/@david.mosqueram">
+        <label>Nombre<input type="text" id="f-nombre" autocomplete="name" required></label>
+        <label>Tu correo (para responderte)<input type="email" id="f-correo" autocomplete="email" required></label>
+        <label>Mensaje<textarea id="f-msg" rows="5" required></textarea></label>
+        <input class="hp" type="text" id="f-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" type="submit">Enviar mensaje</button>
+        <p class="status" id="status" role="status"></p>
+        <p class="hint">El mensaje llega a mi correo y se abre WhatsApp con el texto listo para que pulses enviar.</p>
+      </form>
     </div>
-  </section>
+  </div>
+</section>
 
 </main>
-
 <footer class="footer">
-  <p>© <span id="year">2026</span> David Santiago Mosquera · DASANMOS. Todos los derechos reservados.</p>
-  <p><i>Tecnología y educación · Innovación formativa</i></p>
+  <div class="wrap">
+    <div class="socials">
+      <a class="pill" style="--c:var(--coral)" href="https://www.instagram.com/david.mosqueram/" target="_blank" rel="noopener">📸 @david.mosqueram</a>
+      <a class="pill" style="--c:var(--leaf)" href="https://wa.me/@david.mosqueram" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="pill" style="--c:var(--sky)" href="mailto:dasanmos@gmail.com">✉️ dasanmos@gmail.com</a>
+      <a class="pill" style="--c:var(--violet)" href="https://github.com/dasanmos" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+    <q>Educar es transformar vidas, y hay que vivir auténticamente.</q>
+    <p>© <span id="year">2026</span> David Santiago Mosquera · DASANMOS. Medellín, Colombia.</p>
+  </div>
 </footer>
-
 <script src="js/main.js"></script>
 </body>
 </html>
